@@ -30,10 +30,18 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
       <div className="container flex h-16 items-center justify-between md:h-20">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="AICI Coaching Center" className="h-10 w-10 md:h-12 md:w-12" />
+          <img
+            src={logo}
+            alt="AICI Coaching Center"
+            className="h-10 w-10 md:h-12 md:w-12"
+          />
           <div>
-            <span className="text-lg font-heading font-bold text-primary md:text-xl">AICI</span>
-            <span className="ml-1 hidden text-sm text-muted-foreground sm:inline">Coaching Center</span>
+            <span className="text-lg font-heading font-bold text-primary md:text-xl">
+              AICI
+            </span>
+            <span className="ml-1 hidden text-sm text-muted-foreground sm:inline">
+              Academia India Carrier Institute
+            </span>
           </div>
         </Link>
 
@@ -50,7 +58,10 @@ const Navbar = () => {
             </Link>
           ))}
           <a href="tel:8471894433">
-            <Button size="sm" className="ml-3 gap-2 bg-primary text-primary-foreground hover:bg-primary/90 animate-pulse-glow">
+            <Button
+              size="sm"
+              className="ml-3 gap-2 bg-primary text-primary-foreground hover:bg-primary/90 animate-pulse-glow"
+            >
               <Phone className="h-4 w-4" />
               Call Now
             </Button>
@@ -58,7 +69,10 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Toggle */}
-        <button onClick={() => setOpen(!open)} className="rounded-md p-2 text-foreground md:hidden">
+        <button
+          onClick={() => setOpen(!open)}
+          className="rounded-md p-2 text-foreground md:hidden"
+        >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </div>
