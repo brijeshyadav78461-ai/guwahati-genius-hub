@@ -20,7 +20,7 @@ const HeroSection = ({ onBookDemo }: { onBookDemo: () => void }) => (
         transition={{ duration: 0.7 }}
       >
         <span className="mb-4 inline-block rounded-full bg-accent px-4 py-1.5 text-sm font-semibold text-accent-foreground">
-          🎓 Admissions Open 2025–26
+          🎓 Admissions Open 2026–27
         </span>
         <h1 className="mx-auto max-w-4xl text-3xl font-extrabold leading-tight text-primary-foreground sm:text-5xl md:text-6xl">
           AICI Coaching Center - Guwahati{" "}
