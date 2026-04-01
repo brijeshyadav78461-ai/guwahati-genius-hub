@@ -51,9 +51,9 @@ const HeroSection = ({ onBookDemo }: { onBookDemo: () => void }) => (
           </a>
         </div>
       </motion.div>
-
       {/* Stats Bar */}
-      <motion.div
+      {/*
+       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.3 }}
@@ -75,7 +75,8 @@ const HeroSection = ({ onBookDemo }: { onBookDemo: () => void }) => (
             <div className="text-xs text-primary-foreground/70">{s.label}</div>
           </div>
         ))}
-      </motion.div>
+      </motion.div> 
+      */}
     </div>
   </section>
 );
