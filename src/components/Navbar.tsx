@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.svg";
 
 const navLinks = [
   { label: "Home", to: "/" },
@@ -29,21 +29,25 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
       <div className="container flex h-16 items-center justify-between md:h-20">
-        <Link to="/" className="flex items-center gap-2">
+        {/* <Link to="/" className="flex items-center gap-2">
           <img
             src={logo}
             alt="AICI Coaching Center"
             className="h-10 w-10 md:h-12 md:w-12"
           />
-          <div>
-            <span className="text-lg font-heading font-bold text-primary md:text-xl">
+          <div></div>
+        </Link> */}
+        <div className="flex items-center gap-2">
+          <img src={logo} alt="logo" className="h-10 w-auto" />
+          {/* <span className="text-xl md:text-2xl font-bold text-primary">
+            AICI
+          </span> */}
+          <div className="flex items-center">
+            <span className="text-2xl md:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               AICI
             </span>
-            <span className="ml-1 hidden text-sm text-muted-foreground sm:inline">
-              Academia India Carrier Institute
-            </span>
           </div>
-        </Link>
+        </div>
 
         {/* Desktop Nav */}
         <div className="hidden items-center gap-1 md:flex">
