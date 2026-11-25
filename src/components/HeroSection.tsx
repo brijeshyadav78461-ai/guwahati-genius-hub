@@ -39,7 +39,7 @@ const HeroSection = ({ onBookDemo }: { onBookDemo: () => void }) => (
             <CalendarCheck className="h-5 w-5" />
             Book Free Demo Class
           </Button>
-          <a href="tel:8471894433">
+          <a href="tel:7099483837">
             <Button
               size="lg"
               variant="outline"

@@ -77,7 +77,7 @@ const Navbar = () => {
           })}
 
           {/* 📞 CTA Button */}
-          <a href="tel:8471894433">
+          <a href="tel:7099483837">
             <Button className="ml-2 gap-2 bg-primary text-white hover:bg-primary/90 shadow-md">
               <Phone className="h-4 w-4" />
               Call Now
@@ -105,7 +105,7 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <a href="tel:8471894433" className="block p-4">
+          <a href="tel:7099483837" className="block p-4">
             <Button className="w-full bg-primary text-white">Call Now</Button>
           </a>
         </div>

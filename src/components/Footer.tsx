@@ -42,10 +42,10 @@ const Footer = () => (
           <h4 className="mb-4 font-heading text-lg">Contact Info</h4>
           <div className="flex flex-col gap-3 text-sm text-background/70">
             <a
-              href="tel:8471894433"
+              href="tel:7099483837"
               className="flex items-center gap-2 hover:text-background transition-colors"
             >
-              <Phone className="h-4 w-4" /> 8471894433
+              <Phone className="h-4 w-4" /> 7099483837
             </a>
             <a
               href="tel:7099483837"
